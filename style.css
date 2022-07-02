@@ -10,7 +10,7 @@ body{
   background:#e6e6e6;
 }
 body,h1,h2,h3,h4,h5,p,strong{
-  font-family: candara,cursive,sans-serif;
+  font-family: candara, century gothic,copperplate gothic,didot,garamondgeorgia,sans-serif;
 
 }
 
@@ -1110,7 +1110,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
     background:#e6e6e6;
   }
   body,h1,h2,h3,h4,h5,p,strong{
-    font-family: candara,cursive,sans-serif;
+    font-family: candara, century gothic,copperplate gothic,didot,garamond,georgia,gill sans,goudy old syle,sans-serif;
 
   }
   header{
@@ -1535,8 +1535,8 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
     margin: 0;
     background:#e6e6e6;
   }
-  body,h1,h2,h3,h4,h5,p,strong{
-    font-family: candara,cursive,sans-serif;
+  body,h1,h2,h3,h4,h5,p,strong,button{
+    font-family: candara, century gothic,copperplate gothic,didot,garamondgeorgia, sans-serif;
 
   }
 
@@ -1925,7 +1925,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
     background:#e6e6e6;
   }
   body,h1,h2,h3,h4,h5,p,strong{
-    font-family: candara,cursive,sans-serif;
+    font-family: candara, century gothic,copperplate gothic,didot,garamondgeorgia,sans-serif;
 
   }
   #banniere h2 {
