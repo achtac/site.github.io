@@ -6,7 +6,33 @@ window.addEventListener("scroll",(e) =>{
   }else if(window.scrollY > 810){
           fleche.style.display = "block";
   }
-},false)
+},false);
+
+
+
+window.onload= ()=>{
+
+if(window.innerWidth < 845){
+  pa2.innerHTML = "<i class='fas fa-align-justify'></i>";
+
+}
+
+}
+
+window.addEventListener('resize' ,(e)=>{
+
+if(window.innerWidth < 845){
+
+
+
+pa2.innerHTML = "<i class='fas fa-align-justify'></i>";
+
+
+}
+
+
+
+})
 
 //
 //
