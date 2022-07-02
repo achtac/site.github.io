@@ -16,7 +16,7 @@ header{
   background:	 white;
   display: flex;
   color: black;
-  font-family:agency fb;
+  font-family:Source Sans Pro, sans-serif;
   letter-spacing: 2px;
   font-size: 18px;
   font-weight: bold;
@@ -112,7 +112,7 @@ header a {
   width: 100%;
   display: flex;
   justify-content: space-between;
-    font-family:agency fb,sans-serif;
+    font-family:Source Sans Pro,sans-serif;
   /* align-items:center; */
 }
 #l1 i{
@@ -150,7 +150,7 @@ header a {
 #competences h3{
   width: 90%;
   font-size: 45px;
-  font-family:agency fb,sans-seri;
+  font-family:Source Sans Pro,sans-seri;
 }
 #c1{
   height:180px;
@@ -266,7 +266,7 @@ header a {
   width: 100%;
   background: #3385ff;
   text-align: center;
-  font-family:agency fb;
+  font-family:Source Sans Pro;
   font-size: 24px;
   color:white;
 }
@@ -610,7 +610,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
 #competences h3{
   width: 90%;
   font-size: 45px;
-  font-family:agency fb,sans-seri;
+  font-family:Source Sans Pro,sans-seri;
 }
 #c1{
   height:200px;
@@ -700,7 +700,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
   #competences h3{
     width: 90%;
     font-size: 45px;
-    font-family:agency fb,sans-seri;
+    font-family:Source Sans Pro,sans-seri;
   }
   #c1{
     height:180px;
@@ -816,7 +816,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
     width: 100%;
     background: #3385ff;
     text-align: center;
-    font-family:agency fb;
+    font-family:Source Sans Pro;
     font-size: 24px;
     color:white;
   }
@@ -1098,7 +1098,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
   #competences h3{
     width: 90%;
     font-size: 45px;
-    font-family:agency fb,sans-seri;
+    font-family:Source Sans Pro,sans-seri;
   }
   #c1{
     height:180px;
@@ -1214,7 +1214,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
     width: 100%;
     background: #3385ff;
     text-align: center;
-    font-family:agency fb;
+    font-family:Source Sans Pro;
     font-size: 24px;
     color:white;
   }
@@ -1465,7 +1465,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
   #competences h3{
     width: 90%;
     font-size: 45px;
-    font-family:agency fb,sans-seri;
+    font-family:Source Sans Pro,sans-seri;
   }
   #c1{
     height:220px;
@@ -1582,7 +1582,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
     width: 100%;
     background: #3385ff;
     text-align: center;
-    font-family:agency fb;
+    font-family:Source Sans Pro;
     font-size: 24px;
     color:white;
   }
@@ -1846,7 +1846,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
   #competences h3{
     width: 90%;
     font-size: 25px;
-    font-family:agency fb,sans-seri;
+    font-family:Source Sans Pro,sans-seri;
   }
   #c1{
     height:220px;
@@ -1972,7 +1972,7 @@ font-size: 15px;
     width: 100%;
     background: #3385ff;
     text-align: center;
-    font-family:agency fb;
+    font-family:Source Sans Pro;
     font-size: 24px;
     color:white;
   }
