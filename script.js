@@ -28,20 +28,9 @@ home.onclick = ()=> {
 
 }
 
-close.onclick = ()=> {
-  const sr = ScrollReveal({
-    reset:true
-  });
 
-
-  sr.reveal("#homebar",{
-
-    duration:500,
-    Delay:2,
-    distance:"-40px",
-    origin:"top"
-
-  });
+function close(e){
+  e.preventDefault();
 
    homebar.style.display ="none";
 
