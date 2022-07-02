@@ -439,6 +439,46 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
 }
 
 
+#homebar{
+ height:520px;
+ width: 100%;
+ background: white;
+ position: fixed;
+ top: 11%;
+ display: none;
+ z-index: 99;
+
+}
+
+#homebar ul {
+  width: 100%;
+  height: 450px;
+  /* background: orange; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#homebar ul a{
+  width: 90%;
+  color: inherit;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
+#homebar ul li{
+   height:50px;
+   width:100%;
+   /* background: silver; */
+   list-style: none;
+   display: flex;
+  align-items: center;
+  border-bottom: 2px solid silver;
+}
+#decouvrir {
+  background: blue;
+}
+
+
 
 @media screen  and (max-width:1040px) {
 
@@ -1410,9 +1450,6 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
  top: 11%;
  display: none;
  z-index: 99;
- display: flex;
- justify-content: flex-start;
- text-align: left;
 
 }
 

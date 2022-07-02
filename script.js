@@ -7,3 +7,23 @@ window.addEventListener("scroll",(e) =>{
           fleche.style.display = "block";
   }
 },false);
+
+
+home.onclick = ()=> {
+  const sr = ScrollReveal({
+    reset:true
+  });
+
+
+  sr.reveal("#homebar",{
+
+    duration:500,
+    Delay:2,
+    distance:"40px",
+    origin:"top"
+
+  });
+
+   homebar.style.display ="block";
+
+}
