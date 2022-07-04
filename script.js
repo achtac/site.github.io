@@ -9,70 +9,29 @@ window.addEventListener("scroll",(e) =>{
 },false);
 
 
-
-window.onload= ()=>{
-
-if(window.innerWidth < 845){
-  pa2.innerHTML = "<i class='fas fa-align-justify'></i>";
-
-}
-
-}
-
-window.addEventListener('resize' ,(e)=>{
-
-if(window.innerWidth < 845){
+home.onclick = ()=> {
+  const sr = ScrollReveal({
+    reset:true
+  });
 
 
+  sr.reveal("#homebar",{
 
-pa2.innerHTML = "<i class='fas fa-align-justify'></i>";
+    duration:500,
+    Delay:2,
+    distance:"40px",
+    origin:"top"
 
+  });
+
+   homebar.style.display ="block";
 
 }
 
 
+function close(e){
+  e.preventDefault();
 
-})
+   homebar.style.display ="none";
 
-//
-//
-// const sr = ScrollReveal({
-//   reset:true
-// });
-//
-//
-// sr.reveal("#competences",{
-//
-//   duration:1000,
-//   Delay:2,
-//   distance:"40px",
-//   origin:"bottom"
-//
-// });
-// sr.reveal("#noti",{
-//
-//   duration:1000,
-//   Delay:2,
-//   distance:"150px",
-//   origin:"left"
-//
-// });
-//
-//
-// sr.reveal("#num",{
-//
-//   duration:1000,
-//   Delay:2,
-//   distance:"150px",
-//   origin:"left"
-//
-// });
-//
-// sr.reveal("#description",{
-//
-//   duration:1000,
-//   Delay:2,
-//   distance:"150px",
-//   origin:"right"
-//
-// });
+}

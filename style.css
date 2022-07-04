@@ -9,6 +9,10 @@ body{
   margin: 0;
   background:#e6e6e6;
 }
+body,h1,h2,h3,h4,h5,p,strong{
+  font-family: candara,copperplate gothic,didot,sans-serif;
+
+}
 
 header{
   height: 60px;
@@ -16,7 +20,6 @@ header{
   background:	 white;
   display: flex;
   color: black;
-  font-family:agency fb;
   letter-spacing: 2px;
   font-size: 18px;
   font-weight: bold;
@@ -42,6 +45,9 @@ header ul li{
 }header ul li:hover{
   color:royalblue;
 }
+header ul #home{
+  display: none;
+}
 
 header a {
   color: inherit;
@@ -50,13 +56,14 @@ header a {
 #banniere{
      height:450px;
      width: 100%;
-     background: url("./image/font.jpg");
+     background: url("./image/06.jpg"),url("./image/8.jpg");
+        background-position: center;
+           background-clip:transparent;
+     background-blend-mode: darken;
+
      flex-direction: column;
-     background-color: black;
-     /* filter:grayscale(35%) contrast(55%); */
-      background-blend-mode:lighten;
      background-size: cover;
-     background-position: center;
+
      display: flex;
      justify-content: center;
      align-items: center;
@@ -112,7 +119,6 @@ header a {
   width: 100%;
   display: flex;
   justify-content: space-between;
-    font-family:agency fb,sans-serif;
   /* align-items:center; */
 }
 #l1 i{
@@ -150,7 +156,6 @@ header a {
 #competences h3{
   width: 90%;
   font-size: 45px;
-  font-family:agency fb,sans-seri;
 }
 #c1{
   height:180px;
@@ -266,7 +271,6 @@ header a {
   width: 100%;
   background: #3385ff;
   text-align: center;
-  font-family:agency fb;
   font-size: 24px;
   color:white;
 }
@@ -432,6 +436,46 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
      border:none;
      border-radius:25px 25px 8px 8px;
      color: white;
+}
+
+
+#homebar{
+ height:520px;
+ width: 100%;
+ background:red;
+ position: fixed;
+ top: 11%;
+ display: none;
+ z-index: 99;
+
+}
+
+#homebar ul {
+  width: 100%;
+  height: 450px;
+  /* background: orange; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#homebar ul a{
+  width: 90%;
+  color: inherit;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
+#homebar ul li{
+   height:50px;
+   width:100%;
+   /* background: silver; */
+   list-style: none;
+   display: flex;
+  align-items: center;
+  border-bottom: 2px solid silver;
+}
+#decouvrir {
+  background: blue;
 }
 
 
@@ -610,7 +654,6 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
 #competences h3{
   width: 90%;
   font-size: 45px;
-  font-family:agency fb,sans-seri;
 }
 #c1{
   height:200px;
@@ -700,7 +743,6 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
   #competences h3{
     width: 90%;
     font-size: 45px;
-    font-family:agency fb,sans-seri;
   }
   #c1{
     height:180px;
@@ -816,7 +858,6 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
     width: 100%;
     background: #3385ff;
     text-align: center;
-    font-family:agency fb;
     font-size: 24px;
     color:white;
   }
@@ -1063,12 +1104,31 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
 
 
 @media only screen  and (max-width:600px) {
+  body{
+    padding: 0;
+    margin: 0;
+    background:#e6e6e6;
+  }
+  body,h1,h2,h3,h4,h5,p,strong{
+    font-family: candara,copperplate gothic,didot,sans-serif;
 
+  }
+  header{
+    z-index: 100;
+  }
+ header ul:nth-child(2) li {
+   display: none;
+ }
+  header ul:nth-child(2) #home{
+    display: block;
+  }
 
 
   #banniere h2 {
-    width:50%;
+    width:100%;
     font-size: 45px;
+    display: flex;
+    justify-content: center;
   }
 
 
@@ -1098,7 +1158,6 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
   #competences h3{
     width: 90%;
     font-size: 45px;
-    font-family:agency fb,sans-seri;
   }
   #c1{
     height:180px;
@@ -1214,7 +1273,6 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
     width: 100%;
     background: #3385ff;
     text-align: center;
-    font-family:agency fb;
     font-size: 24px;
     color:white;
   }
@@ -1368,13 +1426,10 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
 
   }
   #fleche{
-
-      position: fixed;
+     width: 100%;
+      position: absolute;
       top:93%;
        left:94%;
-
-
-
 
   }
   #fleche button{
@@ -1386,7 +1441,49 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
        color: white;
   }
 
+#home{
+  position: relative;
+  left:-4%;
+}
 
+#homebar{
+ height:520px;
+ width: 100%;
+ background: white;
+ position: fixed;
+ top: 11%;
+ display: none;
+ z-index: 99;
+
+}
+
+#homebar ul {
+  width: 100%;
+  height: 450px;
+  /* background: orange; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#homebar ul a{
+  width: 90%;
+  color: inherit;
+  text-decoration: none;
+  margin-bottom: 25px;
+}
+#homebar ul li{
+   height:50px;
+   width:100%;
+   /* background: silver; */
+   list-style: none;
+   display: flex;
+  align-items: center;
+  border-bottom: 2px solid silver;
+}
+#decouvrir {
+  background: blue;
+}
 
 
 
@@ -1433,10 +1530,19 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
 
 @media only screen  and (max-width:475px) {
 
+  body{
+    padding: 0;
+    margin: 0;
+    background:#e6e6e6;
+  }
+  body,h1,h2,h3,h4,h5,p,strong,button{
+    font-family: candara,copperplate gothic,didot,sans-serif;
 
+  }
 
   #banniere h2 {
-    width:50%;
+    /* background: red; */
+    width:20%;
     font-size: 35px;
   }
 
@@ -1464,15 +1570,14 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
   }
   #competences h3{
     width: 90%;
-    font-size: 45px;
-    font-family:agency fb,sans-seri;
+    font-size: 25px;
   }
   #c1{
     height:220px;
     width:95%;
     display: flex;
     justify-content: space-between;
-    padding:25px;
+    padding:15px;
   }
   #c1 span{
     height: 200px;
@@ -1582,7 +1687,6 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
     width: 100%;
     background: #3385ff;
     text-align: center;
-    font-family:agency fb;
     font-size: 24px;
     color:white;
   }
@@ -1815,7 +1919,15 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
 @media only screen  and (max-width:320px) {
 
 
+  body{
+    padding: 0;
+    margin: 0;
+    background:#e6e6e6;
+  }
+  body,h1,h2,h3,h4,h5,p,strong{
+    font-family: candara,copperplate gothic,didot,sans-serif;
 
+  }
   #banniere h2 {
     width:60%;
     font-size:25px;
@@ -1846,22 +1958,17 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
   #competences h3{
     width: 90%;
     font-size: 25px;
-    font-family:agency fb,sans-seri;
   }
   #c1{
     height:220px;
-    width:95%;
+    width:100%;
     display: flex;
     justify-content: space-between;
-    padding-top:25px;
-    padding-left:5px;
-    padding-right:25px;
-    padding-bottom: :25px;
-  }
+    }
   #c1 span{
     height: 200px;
-    width: 25%;
-    font-size: 32px;
+    width: 55%;
+    font-size: 65px;
     background:  #3385ff;
     color: white;
     display: flex;
@@ -1972,7 +2079,6 @@ font-size: 15px;
     width: 100%;
     background: #3385ff;
     text-align: center;
-    font-family:agency fb;
     font-size: 24px;
     color:white;
   }
