@@ -306,7 +306,7 @@ header a {
   width: 90%;
   display: flex;
   justify-content: space-between;
-  /* background-color:red; */
+  background-color:white;
 
 }
 #p1 #num{
@@ -331,6 +331,7 @@ header a {
   justify-content: space-around;
   align-items: center;
   overflow: hidden;
+  word-wrap: break-word;
 
 
 }
