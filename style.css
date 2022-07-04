@@ -312,7 +312,7 @@ header a {
 #p1 #num{
   height:150px;
   width: 20%;
-  border:2px solid royalblue;
+/*   border:2px solid royalblue; */
   background: royalblue;
   text-align: center;
   display: flex;
