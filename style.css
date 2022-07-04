@@ -442,7 +442,7 @@ form input[type="submit"]:hover,input[type="reset"]:hover{
 #homebar{
  height:520px;
  width: 100%;
- background:red;
+
  position: fixed;
  top: 11%;
  display: none;
